@@ -1,0 +1,171 @@
+/* RESETS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* GENERALS */
+html{
+    background-color: #ffffff;
+}
+p{
+    font-family:monospace;
+    font-size: 0.9rem;
+}
+h1{
+    font-family: "Permanent Marker";
+    font-size:2.7rem ;
+}
+h2{
+    font-family: "Permanent Marker" ;
+}
+h3{
+    font-family: "Permanent Marker";
+    font-size: 1rem;
+}
+figcaption{
+    font-family: "Permanent Marker";
+}
+/* NAV */
+header{
+    min-height: 559px ;
+    background-color: #f8f7ee;
+    background-image: url('images/FatChoy_hp5.png');
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 20px 0px 20px;
+}
+header nav img{
+    max-height: 40px;
+    max-width: 349;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: "Permanent Marker";
+    gap: 35px;
+}
+nav ul li a{
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: 0.5px #000 underline;
+}
+nav a img{
+    padding-top: 9px;
+}
+.button,.button2{
+    font-family:"Rubik";
+    font-size: 0.9rem;
+    border: 1px black solid;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: black;
+    color: #f8f7ee;
+    transition: 0.2s;
+}
+.button:hover,.button2:hover{
+    text-decoration: none;
+    background-color: #f8f7ee;
+    color: #000;
+}
+header h1{
+    position: absolute;
+    text-align: center;
+    top:42.5%;
+    right: 34.5%;
+}
+.button2{
+    text-decoration: none;
+    position: absolute;
+    top: 68.5%;
+    right: 44.5%;
+    padding: 13.5px 30px;
+}
+.header_p{
+    position: absolute;
+    top: 83%;
+    right: 38%;
+
+}
+/* MAIN */
+/* MAIN-MENU */
+main{
+margin-top: 60px;
+text-align: center;
+}
+.menu{
+    display: flex;
+    margin-top: 40px;
+    text-align: left;
+    justify-content: space-between;
+    padding: 24.5px 90px;
+    margin: 15px 30px;
+    border: #000 solid 1px;
+    border-radius: 25px;
+}
+.sides{
+    padding-left: 80px;
+}
+.chef_specials{
+    width:50%;
+}
+
+.drinks{
+    width: 15%;
+}
+.__{
+font-family:'Times New Roman', Times, serif;
+font-weight: 900;
+}
+/* MAIN-FOOD IMAGES */
+.food img{
+    width: 450px;
+}
+.food{
+    display: flex;
+    margin: 0px 0px 0px 15%;
+
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 175px;
+    gap: 25px;
+}
+.column1{
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.column1 figcaption{
+    
+    max-width:350px;
+}
+.column2 figcaption{
+    max-width: 600px;
+}
+footer{
+    display: flex;
+    color: #f8f7ee;
+    background-color: #221b1d;
+    min-height: 170px;
+    margin-top: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+    text-align: center;
+}
+footer a img{
+    margin-right: 50px;
+}
